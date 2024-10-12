@@ -4,6 +4,7 @@ import {Route,Routes,BrowserRouter} from "react-router-dom"
 import App from "./App"
 import Success from "./Success"
 import Fail from "./Fail"
+import "./index.css"
 
 
 const root=ReactDom.createRoot(document.getElementById("root"))

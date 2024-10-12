@@ -28,10 +28,11 @@ function check(){
   })
 }
   return (
-    <div>
-      <input onChange={handleUser} placeholder="username" name="username"/>
-      <input onChange={handlePass} placeholder="password" name="password"/>
-      <button onClick={check}>Login</button>
+    <div className="container">
+      <h1 className="heading">User Login</h1>
+      <input className="inp1" onChange={handleUser} placeholder="username" name="username"/><br/>
+      <input className="inp2" onChange={handlePass} placeholder="password" name="password"/><br/>
+      <button className="Btn" onClick={check}>Login</button>
    
     </div>
   );

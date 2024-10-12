@@ -1,0 +1,62 @@
+.container{
+    background-color: black;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+    border: #0053CB 4px solid;
+
+}
+.heading{
+    color: azure;
+}
+.inp1{
+    margin: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 4px #0053CB solid;
+    
+    
+}
+.inp1:focus{
+    outline: none;
+}
+.inp2:focus{
+    outline: none;
+}
+
+.inp2{
+    margin: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 4px #0053CB solid;
+}
+.Btn{
+    border-radius: 20px;
+background-color: #0053CB;
+color: #F1F3F6;
+padding: 10px;
+}
+/* success */
+.success{
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width:95%;
+    border: 4px black solid;
+    background-color: #0053CB;
+    color: #F1F3F6;
+}
+.fail{
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width:95%;
+    border: 4px black solid;
+    background-color: #0053CB;
+    color: #F1F3F6;
+}
